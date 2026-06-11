@@ -3,11 +3,11 @@ const fs = require('fs');
 const path = require('path');
 const nunjucks = require('nunjucks');
 
-const env = nunjucks.configure('templates', {
+const env = nunjucks.configure('src/templates', {
   autoescape: true
 });
 
-const pagesDir = 'templates/pages';
+const pagesDir = 'src/templates/pages';
 const distDir = 'dist';
 
 if (!fs.existsSync(distDir)) {
