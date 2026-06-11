@@ -1,6 +1,6 @@
 // scss/base/_layout.scss
 @use "variables" as *;
-@use "breakpoints" as *;
+
 
 /**
 
@@ -36,14 +36,27 @@
     min-height: 100px;
     grid-area: nav;
     background-color: $black;
+    .back-action{
+        a{
+            transition: color ease .3s;
+             color: $bright;
+             &:hover{
+                color: $green;
+             }
+        }
+        color: $bright;
+        padding-left: 15px;
+        font-size: 4rem;
+    }
     pre {
+            
         display: flex;
         align-items: center;
         justify-content: center;
         min-height: 30px;
         padding: 10px;
         align-self: center;
-        color: $white;
+        color: $bright;
     }
 }
 

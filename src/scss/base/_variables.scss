@@ -1,3 +1,9 @@
+
+$mobile: 768px;
+$tablet: 1024px;
+$desktop: 1280px;
+
+
 $bright: #ffef88;
 $green: #bffcb1;
 $orange: #d77003;
@@ -17,7 +23,8 @@ $border: rgba($black, 0.1);
 $muted: rgba($black, 0.65);
 
 // Fonts
-$font-sans: "Poppins", sans-serif;
+//$font-sans: "Poppins", sans-serif;
+$font-sans: "Montserrat", sans-serif;
 $font-heading: "Montserrat", sans-serif;
 
 // Layout

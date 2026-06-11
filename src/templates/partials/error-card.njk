@@ -1,21 +1,17 @@
 <section class="error-card">
 
-    {# <span class="error-code">
-        {{ code }} 
-    </span> #}
-
-   
     <div class="image-container">
-          <img src="./assets/images/mightyvers_logo_black.svg" width="900" class="logo"/> 
+          <a href="{{backActionUrl}}" title="Back to MightyVers.com">
+            {% include "../partials/logo-svg.njk" %}
+            </a>
     </div>
      <p class='title'>
-        {{ title }} <span>Page not found.</span>
+        {{ code }} <span>{{bodyMessage}}</span>
     </p>
 
-  
-
+{# 
     <p>
         {{ message }} 
-    </p>
+    </p> #}
 
 </section>

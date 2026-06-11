@@ -1,3 +1,9 @@
+
+<div style="background-color: #bffcb1; width: 100%; padding: 1rem 0; text-align: center;">
+  <img src="./src/assets/images/mightyvers_logo_black.svg" alt="MightyVers Logo" style="height: 30px;">
+</div>
+
+
 # Response Code
 
 A lightweight, framework-free static website generator for creating beautiful HTTP error pages, maintenance pages, status pages, and response code documentation.
@@ -9,6 +15,21 @@ Built with:
 * Live Server
 * Zero frontend frameworks
 * Mobile-first responsive design
+
+
+## Start and build
+
+```sh
+## install all dev deps
+npm i
+
+# start dev server and watch
+npm run dev
+
+# optimized production ready
+npm run build:prod
+
+```
 
 ---
 
@@ -23,9 +44,8 @@ Most error pages are either:
 
 ResponseCode provides a clean and maintainable solution for creating professional response and status pages without introducing unnecessary dependencies.
 
-The project generates static HTML files that can be deployed anywhere.
+The project generates static HTML files that can be deployed anywhere on:
 
-Examples include:
 
 * Nginx custom error pages
 * Apache error pages
@@ -69,18 +89,20 @@ Examples:
 Organized styling structure:
 
 ```txt
-scss/
-├── base/
-│   ├── _variables.scss
-│   ├── _breakpoints.scss
-│   ├── _reset.scss
-│   ├── _typography.scss
-│   └── _layout.scss
-│
-├── components/
-│   └── _code.scss
-│
-└── main.scss
+src/
+
+    scss/
+    ├── base/
+    │   ├── _variables.scss
+    │   ├── _reset.scss
+    │   ├── _typography.scss
+    │   └── _layout.scss
+    │
+    ├── components/
+    │   └── _code.scss
+    │
+    └── main.scss
+
 ```
 
 ---
@@ -144,12 +166,9 @@ Palette:
 $bright: #ffef88;
 $green: #bffcb1;
 $orange: #d77003;
-
 $white: #ffffff;
 $black: #222222;
 ```
-
-Orange is used in place of traditional warning/error red tones.
 
 ---
 
@@ -157,20 +176,22 @@ Orange is used in place of traditional warning/error red tones.
 
 ```txt
 project/
-├── templates/
-│   ├── layouts/
-│   ├── pages/
-│   └── partials/
-│
-├── scss/
-│   ├── base/
-│   └── components/
-│
-├── dist/
-│
-├── build.js
-├── package.json
-└── README.md
+
+    src/
+        ├── templates/
+        │   ├── layouts/
+        │   ├── pages/
+        │   └── partials/
+        │
+        ├── scss/
+        │   ├── base/
+        │   └── components/
+        │
+    ├── dist/
+    │
+    ├── build.js
+    ├── package.json
+    └── README.md
 ```
 
 ---
@@ -218,12 +239,13 @@ Examples:
 * 400 Bad Request
 * 401 Unauthorized
 * 403 Forbidden
-* 404 Not Found
+* 404 Not Found  (available)
 * 429 Too Many Requests
-* 500 Internal Server Error
+* 500 Internal Server Error  (available)
 * 502 Bad Gateway
-* 503 Service Unavailable
+* 503 Service Unavailable  (available)
 
+- and any others can be set
 ---
 
 ### Maintenance Pages
@@ -291,7 +313,6 @@ Generate static files.
 
 Deploy anywhere.
 
-Maintain for years.
 
 ---
 
@@ -313,3 +334,8 @@ Website: [MightyVers Software](https://www.mightyvers.com)
 This project is released under the MIT License.
 
 Copyright (c) 2026 MightyVers Software.
+
+
+<div style="background-color: #bffcb1; width: 100%; padding: 1rem 0; text-align: center;">
+  <img src="./src/assets/images/mightyvers_logo_black.svg" alt="MightyVers Logo" style="height: 40px;">
+</div>

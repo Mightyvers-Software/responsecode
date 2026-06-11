@@ -1,18 +1,22 @@
 {% extends "../layouts/base.njk" %}
 
-{% set title = "404" %}
+{% set title = "404 Not Found" %}
+{% set code = "404" %}
+{% set backActionUrl = "https://www.mightyvers.com" %}
+{% set navMessage = "Not found." %}
+{% set bodyMessage = "Not found." %}
 {% set companyName = "MightyVers Software" %}
 {% set currentYear = "2026" %}
 
 
 {% block aside %}
-    {# <p>Status</p>
-    <ul>
-        <li>404</li>
-    </ul> #}
+
      <h1>
-        {{ title }} 
+        {{ code }} 
     </h1>
+
+
+    
 {% endblock %}
 
 {% block content %}

@@ -1,0 +1,23 @@
+{% extends "../layouts/base.njk" %}
+
+{% set title = "503 Service Unavailable" %}
+{% set code = "503" %}
+{% set backActionUrl = "https://www.mightyvers.com" %}
+{% set navMessage = "Service Unavailable." %}
+{% set bodyMessage = "Service Unavailable." %}
+{% set companyName = "MightyVers Software" %}
+{% set currentYear = "2026" %}
+
+
+{% block aside %}
+
+     <h1>
+        {{ code }} 
+    </h1>
+
+
+{% endblock %}
+
+{% block content %}
+    {% include "../partials/error-card.njk" %}
+{% endblock %}
