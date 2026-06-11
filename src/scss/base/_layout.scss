@@ -1,8 +1,6 @@
-
 // scss/base/_layout.scss
 @use "variables" as *;
 @use "breakpoints" as *;
-
 
 /**
 
@@ -20,7 +18,7 @@
 .site {
     min-height: 100vh;
     display: grid;
-    grid-template-columns: 30% 1fr;
+    grid-template-columns: 15% 1fr;
     grid-template-areas:
         "nav nav"
         "aside content"
@@ -33,19 +31,47 @@
 }
 
 .nav {
+    display: flex;
+    align-items: center;
+    min-height: 100px;
     grid-area: nav;
+    background-color: $black;
+    pre {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 30px;
+        padding: 10px;
+        align-self: center;
+        color: $white;
+    }
 }
 
 .aside {
+    padding-top: 33px;
     grid-area: aside;
+    h1 {
+        text-align: center;
+    }
+    background-color: $bright;
 }
 
 .content {
+    position: relative;
+    padding: 20px;
     grid-area: content;
+    background-color: $green;
 }
 
 .footer {
+    padding-left: 30px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
     grid-area: footer;
+    background-color: $green;
 }
 
 /**
@@ -59,7 +85,6 @@
 | footer    |
 +-----------+
 **/
-
 
 @media (max-width: $mobile) {
     .site {
