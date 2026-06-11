@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+    {% include "../partials/head.njk" %}
+</head>
+
+<body class="error error--{{ code }}">
+
+<div class="site">
+
+    <nav class="nav">
+        {% include "../partials/nav.njk" %}
+    </nav>
+
+    <aside class="aside">
+        {% block aside %}
+        {% endblock %}
+    </aside>
+
+    <main class="content">
+        {% block content %}
+        {% endblock %}
+    </main>
+
+    <footer class="footer">
+        {% include "../partials/footer.njk" %}
+    </footer>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,26 @@
+@use "../base/variables" as *;
+code {
+    font-family:
+        "SFMono-Regular",
+        Consolas,
+        Monaco,
+        monospace;
+
+    background: rgba($green, 0.2);
+    padding: 0.125rem 0.35rem;
+    border-radius: 4px;
+}
+
+pre {
+    overflow-x: auto;
+    padding: 1rem;
+    border-radius: 8px;
+    background: $black;
+    color: $white;
+    margin: 1.5rem 0;
+}
+
+pre code {
+    background: transparent;
+    padding: 0;
+}

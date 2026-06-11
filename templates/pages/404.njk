@@ -1,0 +1,14 @@
+{% extends "../layouts/base.njk" %}
+
+{% set title = "404" %}
+
+{% block aside %}
+    <p>Status</p>
+    <ul>
+        <li>404</li>
+    </ul>
+{% endblock %}
+
+{% block content %}
+    {% include "../partials/error-card.njk" %}
+{% endblock %}

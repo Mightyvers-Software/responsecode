@@ -1,0 +1,105 @@
+@use "base/variables";
+@use "base/breakpoints";
+@use "base/reset";
+@use "base/typography";
+@use "base/layout";
+@use "components/code";
+
+
+
+.error--404 {
+  .error-code {
+   // opacity: 0.2;
+  }
+}
+
+.error--500 {
+  .error-code {
+    // animation: pulse 2s infinite;
+  }
+}
+
+// .bg {
+//     position: fixed;
+//     inset: 0;
+//     overflow: hidden;
+//     z-index: -1;
+// }
+// .bg__gradient {
+//     position: absolute;
+//     inset: 0;
+
+//     background:
+//         radial-gradient(
+//             circle at top left,
+//             rgba(99, 102, 241, 0.3),
+//             transparent 40%
+//         ),
+//         radial-gradient(
+//             circle at bottom right,
+//             rgba(236, 72, 153, 0.25),
+//             transparent 40%
+//         ),
+//         #09090b;
+// }
+// .bg__grid {
+//     position: absolute;
+//     inset: 0;
+
+//     background-image:
+//         linear-gradient(
+//             rgba(255,255,255,.05) 1px,
+//             transparent 1px
+//         ),
+//         linear-gradient(
+//             90deg,
+//             rgba(255,255,255,.05) 1px,
+//             transparent 1px
+//         );
+
+//     background-size: 40px 40px;
+
+//     mask-image:
+//         radial-gradient(
+//             circle at center,
+//             black,
+//             transparent 80%
+//         );
+// }
+
+// .bg__glow {
+//     position: absolute;
+
+//     border-radius: 50%;
+//     filter: blur(120px);
+// }
+
+// .bg__glow--1 {
+//     width: 300px;
+//     height: 300px;
+
+//     top: 10%;
+//     left: 10%;
+
+//     background: rgba(99, 102, 241, 0.5);
+// }
+
+// .bg__glow--2 {
+//     width: 250px;
+//     height: 250px;
+
+//     right: 10%;
+//     bottom: 10%;
+
+//     background: rgba(236, 72, 153, 0.4);
+// }
+
+// .bg__noise {
+//     position: absolute;
+//     inset: 0;
+
+//     opacity: .03;
+
+//     background-image:
+//         url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+// }
