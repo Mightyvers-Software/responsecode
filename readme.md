@@ -1,4 +1,4 @@
-# ResponseCode
+# Response Code
 
 A lightweight, framework-free static website generator for creating beautiful HTTP error pages, maintenance pages, status pages, and response code documentation.
 
@@ -304,6 +304,7 @@ Building reliable software solutions, developer tooling, automation systems, inf
 ## Contact us
 
 Connect with us at [MightyVers Software](https://www.mightyvers.com/connect)
+
 Website: [MightyVers Software](https://www.mightyvers.com)
 
 
