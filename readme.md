@@ -335,7 +335,4 @@ This project is released under the MIT License.
 
 Copyright (c) 2026 MightyVers Software.
 
-
-<div style="background-color: #bffcb1; width: 100%; padding: 1rem 0; text-align: center;">
-  <img src="./src/assets/images/mightyvers_logo_black.svg" alt="MightyVers Logo" style="height: 40px;">
-</div>
+![MightyVers Banner](./src/assets/images/mightyvers_logo_black.svg)
