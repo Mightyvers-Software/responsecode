@@ -28,12 +28,8 @@ jobs:
       # 4. Build CSS & HTML
       - name: Build project
         run: |
-          npm run build:prod
+          npm run build:prod && npm run docs 
 
-      - name: Build docs
-        run: |
-          npm run docs   
-          
       - name: Debug dist
         run: |
           echo "=== DIST ==="
