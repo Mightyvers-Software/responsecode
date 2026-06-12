@@ -224,7 +224,7 @@ This will:
 Generate optimized output:
 
 ```bash
-npm run build
+npm run build:prod
 ```
 
 Generated files are written to:
