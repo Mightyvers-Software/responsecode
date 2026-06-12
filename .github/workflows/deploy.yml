@@ -10,6 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      
       # 1. Checkout repo
       - name: Checkout code
         uses: actions/checkout@v3
@@ -32,6 +33,11 @@ jobs:
       - name: Build docs
         run: |
           npm run docs   
+          
+      - name: Debug dist
+        run: |
+          echo "=== DIST ==="
+          find dist -type f | sort
 
       # 6. Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
