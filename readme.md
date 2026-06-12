@@ -1,6 +1,4 @@
-
-![MightyVers Banner](./docs/images/mightyvers_logo_black.svg)
-
+[![MightyVers Software | Redefining Possibilities, One Vision at a Time](./docs/images/mightyvers_logo_black.svg)](https://www.mightyvers.com)
 # Response Code
 
 A lightweight, framework-free static website generator for creating beautiful HTTP error pages, maintenance pages, status pages, and response code documentation.
@@ -17,6 +15,9 @@ Built with:
 ## Start and build
 
 ```sh
+
+# set your node version 
+nvm use 24 
 ## install all dev deps
 npm i
 
@@ -330,7 +331,7 @@ Building reliable software solutions, developer tooling, automation systems, inf
 
 Connect with us at [MightyVers Software](https://www.mightyvers.com/connect)
 
-Website: [MightyVers Software](https://www.mightyvers.com)
+Website: [https://www.mightyvers.com](https://www.mightyvers.com)
 
 
 ## License
@@ -339,4 +340,5 @@ This project is released under the MIT License.
 
 Copyright (c) 2026 MightyVers Software.
 
-![MightyVers Banner](./docs/images/mightyvers_logo_black.svg)
+<br/>
+<br/>
