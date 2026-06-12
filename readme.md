@@ -310,16 +310,6 @@ Benefits:
 
 ---
 
-## Philosophy
-
-Keep it simple.
-
-Generate static files.
-
-Deploy anywhere.
-
-
----
 
 ## Build By
 
