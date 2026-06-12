@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-   "copy:docs": "cp -R docs dist",
+   "copy:docs": "cp -R readme dist",
     "docs": "node docs.js && npm run copy:docs",
     "clean": "rm -rf dist",
     "serve": "live-server dist",
