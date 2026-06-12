@@ -1,5 +1,5 @@
 
-![MightyVers Banner](./src/assets/images/mightyvers_logo_black.svg)
+![MightyVers Banner](./docs/images/mightyvers_logo_black.svg)
 
 # Response Code
 
@@ -332,4 +332,4 @@ This project is released under the MIT License.
 
 Copyright (c) 2026 MightyVers Software.
 
-![MightyVers Banner](./src/assets/images/mightyvers_logo_black.svg)
+![MightyVers Banner](./docs/images/mightyvers_logo_black.svg)
