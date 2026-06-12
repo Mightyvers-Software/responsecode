@@ -15,7 +15,7 @@
     "build:css": "sass src/scss/main.scss dist/css/main.css --style=compressed",
     "build": "npm run build:html && npm run build:css && npm run copy:assets",
     "build:prod": "NODE_ENV=production npm run build:css && npm run copy:assets && NODE_ENV=production npm run build:html",
-    "deploy":"NODE_ENV=production npm run build:css && npm run copy:assets && NODE_ENV=production npm run build:html && npm run docs",
+    "deploy":"npm run docs && NODE_ENV=production npm run build:css && npm run copy:assets && NODE_ENV=production npm run build:html",
     "dev": "npm run build && npm-run-all --parallel scss:watch html:watch serve"
   },
   "author": "MightyVers Software",
