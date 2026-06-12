@@ -32,7 +32,7 @@ npm run build:prod
 
 ## Demo
 
-[https://responsecode.mightyvers.com](https://responsecode.mightyvers.com)
+[https://responsecode.mightyvers.com](https://responsecode.mightyvers.com/404.html)
 
 ![Response Code demo](./docs/images/demo.png)
 
