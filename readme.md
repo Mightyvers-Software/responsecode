@@ -221,7 +221,7 @@ This will:
 
 ## Production Build
 
-Generate optimized output:
+Generate optimized output::
 
 ```bash
 npm run build:prod
