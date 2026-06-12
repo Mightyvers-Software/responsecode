@@ -28,7 +28,7 @@ jobs:
       # 4. Build CSS & HTML
       - name: Build project
         run: |
-          npm run build:prod && npm run docs 
+          npm run deploy
 
       - name: Debug dist
         run: |

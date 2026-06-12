@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-   "copy:docs": "cp -R docs dist",
+    "copy:docs": "cp -R docs dist",
     "docs": "node docs.js && npm run copy:docs",
     "clean": "rm -rf dist",
     "serve": "live-server dist",
@@ -14,7 +14,8 @@
     "build:html": "node build.js",
     "build:css": "sass src/scss/main.scss dist/css/main.css --style=compressed",
     "build": "npm run build:html && npm run build:css && npm run copy:assets",
-    "build:prod": "rm -rf dist && NODE_ENV=production npm run build:css && npm run copy:assets && NODE_ENV=production npm run build:html",
+    "build:prod": "NODE_ENV=production npm run build:css && npm run copy:assets && NODE_ENV=production npm run build:html",
+    "deploy":"NODE_ENV=production npm run build:css && npm run copy:assets && NODE_ENV=production npm run build:html && npm run docs",
     "dev": "npm run build && npm-run-all --parallel scss:watch html:watch serve"
   },
   "author": "MightyVers Software",
