@@ -3,13 +3,13 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "copy:docs": "cpy \"docs/**/*\" dist/docs",
+   "copy:docs": "cp -R docs dist",
     "docs": "node docs.js && npm run copy:docs",
     "clean": "rm -rf dist",
     "serve": "live-server dist",
     "scss": "sass src/scss/main.scss dist/css/main.css",
     "scss:watch": "sass --watch src/scss/main.scss:dist/css/main.css",
-    "copy:assets": "cpy \"src/assets/**/*\" dist/assets --parents",
+    "copy:assets": "cp -R src/assets dist",
     "html:watch": "chokidar \"src/templates/**/*.njk\" -c \"node build.js\"",
     "build:html": "node build.js",
     "build:css": "sass src/scss/main.scss dist/css/main.css --style=compressed",
@@ -27,7 +27,6 @@
   "devDependencies": {
     "chokidar-cli": "^3.0.0",
     "concurrently": "^10.0.3",
-    "cpy-cli": "^7.0.0",
     "html-include-element": "^0.3.0",
     "html-minifier-terser": "^7.2.0",
     "live-server": "^1.2.2",
