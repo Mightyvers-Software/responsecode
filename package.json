@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "copy:docs": "cp -R docs dist",
-    "docs": "node docs.js && npm run copy:docs",
+    "docs": "rm -rf docs && node docs.js && npm run copy:docs",
     "clean": "rm -rf dist",
     "serve": "live-server dist",
     "scss": "sass src/scss/main.scss dist/css/main.css",
