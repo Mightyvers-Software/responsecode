@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "docs": "node docs.js",
+    "copy:docs": "cpy \"docs/**/*\" dist/docs",
+    "docs": "node docs.js && npm run copy:docs",
     "clean": "rm -rf dist",
     "serve": "live-server dist",
     "scss": "sass src/scss/main.scss dist/css/main.css",
