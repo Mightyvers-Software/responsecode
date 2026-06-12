@@ -6,6 +6,6 @@ Thumbs.db
 
 .vscode/
 .idea/
-
+src
 npm-debug.log*
 
